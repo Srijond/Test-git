@@ -5,6 +5,6 @@ int a;
 char name[20]
 scanf("%d",&a);
 scanf("%s"&name);
-printf("Hello world");
+printf("Hello world %s",name);
 printf("%d",a);
 return 0;
